@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="mobilesheet" href="./styles/mobile-version.css">
+    <title>Знакомство с котиками</title>
+</head>
+
+<body>
+
+    <div class="content">
+
+        <header>
+            <h1>Привет, давай знакомиться</h1>
+        </header>
+        <section class="banner">
+            <img src="./img/photo_2022-06-07_16-56-54.jpg" alt="Photo of cats" id="cats-photo-main">
+        </section>
+        <div class="welcome">
+            <h2>Добро пожаловать <br><span>в КотоВселенную</span></h2>
+        </div>
+        
+        <nav class="main-navigation">
+            <ul>
+                <li> <a href="/Join.html" class="join">Вступить в котобанду</a></li>
+                <li> <a href="/news.html">Котоновости</a></li>
+                <li> <a href="/photos.html">Котофото</a></li>
+                <li> <a href="/contacts.html">Написать котикам</a></li>
+            </ul>
+
+        </nav>
+
+
+
+        <div class="gallery-parent">
+
+            <div class="gallery">
+                <a target="_blanck" href="./img/arbuzangry.jpg">
+                    <img src="./img/arbuzangry.jpg" alt="anrgy cat arbuz" width="900px" height="400px"></a>
+                <div class="desc">Добавить описание картинки</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blanck" href="./img/phoro4fury.jpg">
+                    <img src="./img/phoro4fury.jpg" alt="my cat" width="900px" height="400px"></a>
+                <div class="desc">Добавить описание картинки</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blanck" href="./img/furypencils.jpg">
+                    <img src="./img/furypencils.jpg" alt="cat fury pencils" width="900px" height="400px"></a>
+                <div class="desc">Добавить описание картинки</div>
+            </div>
+
+            <div class="gallery">
+                <a target="_blanck" href="./img/photo_2022-06-03_14-49-02.jpg">
+                    <img src="./img/photo_2022-06-03_14-49-02.jpg" alt="my little cat" width="900px" height="400px"></a>
+                <div class="desc">Добавить описание картинки</div>
+            </div>
+        </div>
+
+
+
+        <main>
+            <article>
+                <h2>Мур-мур-мряу</h2>
+                <p>Вас приветствуют самые милые и пушистые котодети. Кто нам такое сказал? Наши родители. Мы пережили
+                    оккупацию Киева. Совершили большое путешествие, а теперь наша мама рассказывает о нашей тихой и
+                    размеренной котожизни</p>
+            </article>
+        </main>
+
+        <section>
+            <h2>Станьте частью нашей КотоВселенной</h2>
+            <p>Если хотите постоянно получать новую порцию няшности и замурчательности, заполняйте форму ниже и
+                становитесь нашими котодрузьями. Да прибудет с вами МЯУ!</p>
+            <form>
+                <div class="userdata">
+                    <label for="username">Введи свое имя</label>
+                    <input type="text" id="username" name="username" required>
+                    <br><br>
+                    <label for="email">Введи свой имейл</label>
+                    <input type="email" id="email" name="email" required>
+                    <br> <br>
+                    <label for="userpassword">Придумай пароль</label>
+                    <input type="password" id="userpassword" name="userpassword" required>
+                    <br><br>
+                    <input type="submit" value="Сохранить">
+                </div>
+
+
+                <br> <br>
+                <p style="color: darkred;"> <strong> Давай познакомимся поближе. Для этого выбери свой пол:</strong>
+                </p>
+                <input type="radio" name="gender" value="Women"> Женщина <br>
+                <input type="radio" name="gender" value="Men"> Мужчина <br>
+                <input type="radio" name="gender" value="Other"> Другой вариант <br>
+                <p style="color: darkred;"> <strong> Теперь выбери свой возраст:</strong> </p>
+                <input type="radio" name="age" value="option1"> 0-25<br>
+                <input type="radio" name="age" value="option2"> 25-55 <br>
+                <input type="radio" name="age" value="option3"> 55-100 <br>
+               
+                <br> <br>
+                <label for="question">Security question</label>
+                <select name="question" id="question">
+                    <option value="q1">Какой у тебя любимый напиток</option>
+                    <option value="q2">С каким животным ты себя ассоциируешь</option>
+                    <option value="q3">Твоя любимая пора года</option>
+
+                </select>
+                <br><br>
+                <label for="answer">Security answer</label>
+                <input type="text" id="answer" name="answer" placeholder="Напишите о себе что-нибудь...">
+
+                <br><br>
+                <label for="bio">Введите свой текст</label>
+                <br>
+                <textarea name="bio" id="bio" cols="60" rows="10"
+                    placeholder="Напишите о себе что-нибудь..."></textarea>
+                <br><br>
+                <input type="submit" value="Сохранить">
+            </form>
+        </section>
+        <footer>
+            <p class="copyright">Все права на контент принадлежат Фьюри, Альбусу и их маме. Мряу)</p>
+        </footer>
+    </div>
+    <script src="../JS Lessons/Practise.js"></script>
+</body>
+
+</html>

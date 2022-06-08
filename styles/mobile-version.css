@@ -1,0 +1,40 @@
+@media screen and (max-width: 1400px) {
+    .banner img {
+        width: 100%;
+        position: static;
+        border-image: url 20 stretch;
+        margin-top: 140px;
+    }
+
+    .welcome {
+        text-shadow: 2px 2px black;
+        /* background-color: rgb(195, 150, 236); */
+        padding: 5px;
+         left: 10%;
+        top: 35%;}
+
+    /* .welcome h2 {
+        position: fixed;
+        top: 0;
+        margin-top: 0;
+        width: 500px;
+        font-size: 5px; */
+    header {
+        /* padding: 20px;
+        text-align: center;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        right: 0; */
+        height: 110px;
+    }
+    
+    header h1 {
+        border: 8px solid #E7D043;
+        padding: 6px 6px;
+        display: inline-block;
+        border-radius: 40px;
+    }
+    
+}
