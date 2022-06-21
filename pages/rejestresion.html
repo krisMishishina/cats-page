@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="mobilesheet" href="./styles/mobile-version.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <section>
+            <h2>Станьте частью нашей КотоВселенной</h2>
+            <p>Если хотите постоянно получать новую порцию няшности и замурчательности, заполняйте форму ниже и
+                становитесь нашими котодрузьями. Да прибудет с вами МЯУ!</p>
+            <form>
+                <div class="userdata">
+                    <label for="username">Введи свое имя</label>
+                    <input type="text" id="username" name="username" required>
+                    <br><br>
+                    <label for="email">Введи свой имейл</label>
+                    <input type="email" id="email" name="email" required>
+                    <br> <br>
+                    <label for="userpassword">Придумай пароль</label>
+                    <input type="password" id="userpassword" name="userpassword" required>
+                    <br><br>
+                    <input type="submit" value="Сохранить">
+                </div>
+
+
+                <br> <br>
+                <p style="color: darkred;"> <strong> Давай познакомимся поближе. Для этого выбери свой пол:</strong>
+                </p>
+                <input type="radio" name="gender" value="Women"> Женщина <br>
+                <input type="radio" name="gender" value="Men"> Мужчина <br>
+                <input type="radio" name="gender" value="Other"> Другой вариант <br>
+                <p style="color: darkred;"> <strong> Теперь выбери свой возраст:</strong> </p>
+                <input type="radio" name="age" value="option1"> 0-25<br>
+                <input type="radio" name="age" value="option2"> 25-55 <br>
+                <input type="radio" name="age" value="option3"> 55-100 <br>
+               
+                <br> <br>
+                <label for="question">Security question</label>
+                <select name="question" id="question">
+                    <option value="q1">Какой у тебя любимый напиток</option>
+                    <option value="q2">С каким животным ты себя ассоциируешь</option>
+                    <option value="q3">Твоя любимая пора года</option>
+
+                </select>
+
+    </div>
+</body>
+</html>

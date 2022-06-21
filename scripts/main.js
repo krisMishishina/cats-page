@@ -13,16 +13,16 @@
 
 // console.log(window);
 
-// let userAge = '';
-// userAge = prompt ('Ваш возраст')
-// parsedAge = parseFloat (userAge);
+let userAge = '';
+userAge = prompt ('Ваш возраст')
+parsedAge = parseFloat (userAge);
 
-// if (parsedAge <= 0 || String(parsedAge) == 'NaN') {
-//     alert('Вы неправильно ввели данные');
-//     prompt ('Введите данные правильно');
-// } else {
-//   alert('Все мы знаем возраст не важен, если ты любишь котиков');
-// }
+if (parsedAge <= 0 || String(parsedAge) == 'NaN') {
+    alert('Вы неправильно ввели данные');
+    prompt ('Введите данные правильно');
+} else {
+  alert('Все мы знаем возраст не важен, если ты любишь котиков');
+}
 
 
 // let cats = 1;
@@ -31,17 +31,17 @@
 // cats++;
 // }
 
-console.log(this);
-var bla = {
-    x: 0,
-    y: 0,
-    bla: function (){
-        console.log (this.y);
-    }
-}
+// console.log(this);
+// var bla = {
+//     x: 0,
+//     y: 0,
+//     bla: function (){
+//         console.log (this.y);
+//     }
+// }
 
-bla.y;
-bla.bla();
+// bla.y;
+// bla.bla();
 
 // var num = 2;
 // function func() {
@@ -53,11 +53,11 @@ bla.bla();
 // console.log(num);
 
 
-function func(x) {
-    console.log(typeof x);
-    console.log(arguments.length);
-}
+// function func(x) {
+//     console.log(typeof x);
+//     console.log(arguments.length);
+// }
 
-func();
-func('1','2','3');
+// func();
+// func('1','2','3');
 

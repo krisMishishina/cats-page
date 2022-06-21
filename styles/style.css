@@ -7,7 +7,9 @@ header {
     color: rgb(133, 70, 192);
     /* background-color:  #3F5991; */
     /* background: linear-gradient(180deg, rgba(2,0,36,1), rgba(9,9,121,1), rgba(0,212,255,1));; */
-    background: linear-gradient(0deg, #757de8, #3f51b5, #002984);
+    background-image: url(/img/1626787859_1-kartinkin-com-p-zvezdnoe-nebo-besshovnaya-tekstura-krasivo-1.png);
+    background-size: 100%;
+    /* linear-gradient(0deg, #757de8, #3f51b5, #002984); */
     padding: 20px;
     text-align: center;
     position: fixed;
@@ -27,8 +29,10 @@ header h1 {
 }
 
 body {
-    background-color: rgb(229, 242, 243);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: rgb(229, 242, 243);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background-image: url(/img/бесшовная\ картинка\ небо.jpg);
+    /* background-size: cover; */
 }
 
 .banner {
