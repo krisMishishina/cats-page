@@ -13,16 +13,16 @@
 
 // console.log(window);
 
-let userAge = '';
-userAge = prompt ('Ваш возраст')
-parsedAge = parseFloat (userAge);
+// let userAge = '';
+// userAge = prompt ('Ваш возраст')
+// parsedAge = parseFloat (userAge);
 
-if (parsedAge <= 0 || String(parsedAge) == 'NaN') {
-    alert('Вы неправильно ввели данные');
-    prompt ('Введите данные правильно');
-} else {
-  alert('Все мы знаем возраст не важен, если ты любишь котиков');
-}
+// if (parsedAge <= 0 || String(parsedAge) == 'NaN') {
+//     alert('Вы неправильно ввели данные');
+//     prompt ('Введите данные правильно');
+// } else {
+//   alert('Все мы знаем возраст не важен, если ты любишь котиков');
+// }
 
 
 // let cats = 1;
