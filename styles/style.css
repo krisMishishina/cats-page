@@ -195,3 +195,6 @@ article p::first-line{
     font-weight: bold;
     font-size: 2em;
 }
+.registration {
+    background-color: #82a6f37a;
+}
